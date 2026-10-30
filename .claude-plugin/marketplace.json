@@ -1,0 +1,17 @@
+{
+  "name": "nominal",
+  "owner": {
+    "name": "Nominal",
+    "url": "https://nominal.io"
+  },
+  "metadata": {
+    "description": "Official Claude Code plugins from Nominal."
+  },
+  "plugins": [
+    {
+      "name": "nominal",
+      "source": "./plugins/nominal",
+      "description": "Connect Claude Code to the Nominal MCP server to search, read, and edit Nominal workbooks, checklists, runs, and assets."
+    }
+  ]
+}
